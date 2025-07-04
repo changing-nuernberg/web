@@ -1,26 +1,28 @@
 div.content::after {
-    background-color: #C7BFF0;
+    background-color: #d8d9db;
 }
 
 ::selection {
-    color: #312682;
-    background-color: #F5EC5F;
+    background-color: #d2ff04;
 }
 
 div {
+    #logo {
+	max-height:400px;
+    }
     #Superblock\ Gostenhof {
-        color: #312682;
+        color: #003bc3;
     }
 
-    background-color: #C7BFF0;
+    background-color: #d8d9db;
     max-width: 1200px;
     margin: auto;
 }
 
 h2.intermediate {
     text-align: center;
-    background-color: #F5EC5F;
-    border-color: #312682;
+    background-color: #d2ff04;
+    border-color: #003bc3;
     border-width: 0.12em;
     border-radius: 5px;
     border-style: solid;
@@ -31,11 +33,11 @@ h2.intermediate {
 }
 
 a {
-    color: #72419E;
+    color: #003bc3;
 }
 
 a:hover {
-    color: white;
+    background-color: #d2ff04;
 }
 
 iframe {
@@ -76,4 +78,10 @@ p.time {
 
 p.location {
     font-weight: 100;
+}
+
+#logo img {
+  object-fit: contain;
+  max-height: 200px;
+  width: 100%;
 }

@@ -85,3 +85,16 @@ p.location {
   max-height: 200px;
   width: 100%;
 }
+
+h4.question {
+    text-align: center;
+    background-color: #d2ff04;
+    border-color: #003bc3;
+    border-width: 0.12em;
+    border-radius: 5px;
+    border-style: solid;
+    max-width: 53%;
+    margin: auto;
+    margin-bottom: 3%;
+    clear: inline-end;
+}

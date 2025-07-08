@@ -3,6 +3,7 @@ div.content::after {
 }
 
 ::selection {
+    color: #003bc3;
     background-color: #d2ff04;
 }
 

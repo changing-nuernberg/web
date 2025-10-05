@@ -216,18 +216,3 @@ https://www.nordbayern.de/nuernberg/hier-in-nurnberg-sollen-superblocks-entstehe
         <a href="https://autofrei-nbg.de/datenschutz-impressum/" alt="Link Impressum">Impressum von Nürnberg Autofrei</a>.
     </p>
 </div>
-
-<script>
-    const article = document.querySelectorAll("[data-date]");
-    for (let i = 0; i < article.length; i++) {
-        const datestring = article[i].dataset.date;
-        const date = new Date(datestring);
-        const currentDate = new Date();
-        const msPerDay = 24 * 60 * 60 * 1000;
-        let daysLeft = (date.getTime() - currentDate.getTime()) / msPerDay;
-        console.log(daysLeft);
-        if (daysLeft <= -1) {
-            article[i].remove();
-        }
-    }
-</script>
